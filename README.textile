@@ -1,0 +1,33 @@
+h2. Prettify for Dynamic Views of Blogger.com
+<small>??(P4DV)??</small>
+
+h3. Usage
+
+# Compile (compress)
+
+<pre>
+  $ git clone git://github.com/Yitsushi/P4DV.git
+  $ cd P4DV
+  $ make
+</pre>
+
+#2 You have got two new files:
+** build/P4DV.js
+** *build/P4DV.min.js*
+
+#3 Copy *<code>build/prettify_for_dynamic_view.min.js</code>* to you static host.
+# Copy this line to the end of your posts which includes source code:
+
+<pre>
+  <script
+    type="text/javascript"
+    charset="utf-8"
+    src="__STATIC_HOST__/P4DV.min.js"></script>
+</pre>
+__STATIC_HOST__: URL where you store the *P4DV.min.js* .
+
+h3. Example blog posts
+
+* "Image upload? Watch out!":http://blog.code-infection.com/2011/09/image-upload-watch-out.html
+* "Google APIs Client Library for Java: now with OAuth 2.0":http://blog.code-infection.com/2011/09/google-apis-client-library-for-java-now.html
+* "Google Talk 1.3 with Video and Voice chat vs. Samsung Galaxy S":http://blog.code-infection.com/2011/11/google-talk-13-with-video-and-voice.html

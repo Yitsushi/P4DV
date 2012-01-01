@@ -3,7 +3,7 @@ LANGUAGES=$(SRC)/langs
 TOOLS=tools
 JS_COMP=yuicompressor-2.4.6.jar
 BUILD_DIR=build
-OUTPUT=prettify_for_dynamic_view
+OUTPUT=P4DV
 
 all: javascript
 

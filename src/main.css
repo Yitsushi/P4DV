@@ -1,0 +1,55 @@
+pre .str, code .str { color: #65B042 !important; }
+pre .kwd, code .kwd { color: #E28964 !important; }
+pre .com, code .com { color: #AEAEAE !important; font-style: italic !important; }
+pre .typ, code .typ { color: #89bdff !important; }
+pre .lit, code .lit { color: #3387CC !important; }
+pre .pun, code .pun { color: #fff !important; }
+pre .pln, code .pln { color: #fff !important; }
+pre .tag, code .tag { color: #89bdff !important; }
+pre .atn, code .atn { color: #bdb76b !important; }
+pre .atv, code .atv { color: #65B042 !important; }
+pre .dec, code .dec { color: #3387CC !important; }
+
+pre, code, pre.prettyprint, code.prettyprint {
+  color: #ccc !important;
+  background-color: #000 !important;
+  -moz-border-radius: 4px !important;
+  -webkit-border-radius: 4px !important;
+  -o-border-radius: 4px !important;
+  -ms-border-radius: 4px !important;
+  -khtml-border-radius: 4px !important;
+  border-radius: 4px !important;
+  line-height: 1.2em;
+  font-size: 0.8em !important;
+}
+
+pre.prettyprint {
+  width: 95% !important;
+  margin: 1em auto !important;
+  padding: 1em !important;
+  white-space: pre-wrap !important;
+}
+
+code {
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+  background-color: #cdb !important;
+  color: black !important;
+}
+
+ol.linenums { margin-top: 0 !important; margin-bottom: 0 !important; color: #AEAEAE !important; }
+li.L0,li.L1,li.L2,li.L3,li.L5,li.L6,li.L7,li.L8 { list-style-type: none !important }
+li.L1,li.L3,li.L5,li.L7,li.L9 { } 
+
+pre { padding: 5px; font-size: 1em !important; }
+
+hr { border: none; border-top: 1px dotted #AA2200; width: 80%; margin-left: 0; }
+
+.notify { -moz-border-radius: 4px !important;
+  -webkit-border-radius: 4px !important;
+  -o-border-radius: 4px !important;
+  -ms-border-radius: 4px !important;
+  -khtml-border-radius: 4px !important;
+  border-radius: 4px !important; background-color: #680719 !important; padding: 10px; color: #fcc; padding-left: 72px; background-image: url('http://static.code-infection.com/blog/icons/spider.png'); background-position: 10px 10px; background-repeat: no-repeat; }
+.notify { min-height: 50px; font-size: 0.9em; font-family: courier; line-height: 1em;  }
+.header_image img { border: 1px solid #555; }

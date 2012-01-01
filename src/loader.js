@@ -14,5 +14,6 @@ if (typeof addLoadEvent === "undefined" || addLoadEvent === null) {
   }
   
   addLoadEvent(prettyPrint);
-  prettyPrint();
 }
+
+prettyPrint();

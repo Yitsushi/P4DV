@@ -15,7 +15,7 @@ h3. Usage
 ** build/P4DV.js
 ** *build/P4DV.min.js*
 
-#3 Copy *<code>build/prettify_for_dynamic_view.min.js</code>* to you static host.
+#3 Copy *<code>build/P4DV.min.js</code>* to you static host.
 # Copy this line to the end of your posts which includes source code:
 
 <pre>
